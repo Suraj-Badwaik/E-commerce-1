@@ -1,0 +1,118 @@
+body{
+    background-color: #e6e8da;
+    font-family: 'Baloo 2', cursive;
+}
+#navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: teal;
+    padding: 10px;
+    position: fixed;
+    top: 5px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  #navbar a:hover {
+    color: white;
+  }
+  #navbar a {
+    cursor: pointer;
+  }
+
+
+ #navbar >button{
+    float: right;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: #e8a378;
+    border: none;
+    border-radius: 10px;
+}
+  
+h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(155, 101, 3);
+}
+#container{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    row-gap: 50px;
+    column-gap: 40px;
+}
+
+#container>div{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #7fe4ff8f;
+    border-radius: 20px;
+}
+
+#container>div img{
+    width: 100%;
+    height: 60%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#container .name{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.pdiv{
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-between;
+    margin: -8px 15px;
+}
+.pdiv>div:nth-child(2){
+    display: flex;
+    align-items: center;
+}
+
+#btn{
+    font-size: 17px;
+    padding: 10px 10px;
+    background-color: #416dc7;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+
+.price{
+    margin-top: 10px;
+    font-size: 19px;
+}
+.strprice{
+    margin-top: -10px;
+    text-decoration: line-through;
+}
+h3{
+    margin-left: 10px;
+}
+
+.filter{
+    border: 2px solid rgb(19, 101, 139);
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    padding: 6px 10px;
+    margin-bottom: 20px;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
+.filter>select{
+    padding: 5px 20px;
+    border-radius: 6px;
+    border: 2px solid lightblue;
+    font-size: 16px;
+}
